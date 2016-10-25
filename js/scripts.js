@@ -16,7 +16,9 @@ $(document).ready(function(){
       }
     }
     var lettersJoined = newSentence.join("");
-    alert(lettersJoined);
+    // alert(lettersJoined);
+
+    $("p").text(lettersJoined);
 
   });
 });
